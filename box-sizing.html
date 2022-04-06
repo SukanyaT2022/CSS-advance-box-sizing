@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    .parents{
+        display: flex;
+        /* create parent to move 2 boxs side by side
+        and use display flex--for parents only*/
+        
+    }
+    /*without padding and box-sining so no border*/
+    .box1 {
+        height: 300px;
+        width: 300px;
+        background-color: pink;
+        display: inline-block;
+        margin-right: 20px;
+
+    }
+/*add boder but do not want the box to get bigger --using box-sizing*/
+    .box2 {
+        height: 300px;
+        width: 300px;
+        background-color: lightgreen;
+        padding: 40px;
+        box-sizing: border-box;
+overflow: scroll;/* add scroll bar*/
+display: inline-block;
+    }
+</style>
+
+
+
+<body>
+    <div class="parents">
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed ab velit hic sapiente id harum, nam cum
+            soluta dolores a, nulla cupiditate labore sequi veniam recusandae obcaecati voluptas. Explicabo, molestiae
+            quod fugiat quos obcaecati ratione aperiam voluptas quas laboriosam debitis corporis accusamus sit officia
+            qui culpa temporibus maiores nostrum!</p>
+
+    </div>
+
+    <div class="box2">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed ab velit hic sapiente id harum, nam cum
+            soluta dolores a, nulla cupiditate labore sequi veniam recusandae obcaecati voluptas. Explicabo, molestiae
+            quod fugiat quos obcaecati ratione aperiam voluptas quas laboriosam debitis corporis accusamus sit officia
+            qui culpa temporibus maiores nostrum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sed ab velit hic sapiente id harum, nam cum
+            soluta dolores a, nulla cupiditate labore sequi veniam recusandae obcaecati voluptas. Explicabo, molestiae
+            quod fugiat quos obcaecati ratione aperiam voluptas quas laboriosam debitis corporis accusamus sit officia
+            qui culpa temporibus maiores nostrum!</p>
+
+
+    </div>
+</div>
+</body>
+
+</html>
